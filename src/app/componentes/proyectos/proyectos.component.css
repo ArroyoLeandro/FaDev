@@ -1,0 +1,30 @@
+
+.contenedor1 {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+    margin: auto;
+    
+}
+#img1 {
+	width: 100%;
+	height: 600px;
+}
+h1 {
+	font-family: 'Karla', sans-serif;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+.titulo {
+	left: -1%;
+	position: absolute;
+	top: 25%;
+	color: white;
+	text-shadow: -3px 2px 0 #0a0e27;
+	z-index: 2;
+}
+

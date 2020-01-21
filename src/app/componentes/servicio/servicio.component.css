@@ -1,0 +1,52 @@
+*{
+    color:#fff
+    
+}
+h1 h2 {
+    font-family: 'Karla', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+   list-style: square;
+}
+li {
+    text-decoration: none;
+}
+
+#servicios{
+    background-color: #6C5B7B;
+    border:  1px solid #fff;
+    padding: 20px 20px;
+    border-radius: 33%;
+}
+
+@media (max-width: 769px) {
+    #servicios{
+        background: #355C7D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     border: 0;
+        border-radius: 0;
+    }
+  }
+
+  @media (max-width: 1366px) {
+    #servicios{
+        background: #355C7D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     border-radius: 30%;
+    }
+  }
+  @media (max-width: 1024px) {
+    #servicios{
+        background: #355C7D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     border-radius: 22%;
+    }
+  }
